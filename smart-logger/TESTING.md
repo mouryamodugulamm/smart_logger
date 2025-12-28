@@ -109,3 +109,4 @@ Each log should have:
 - **Error**: Red + Bright (`\x1b[1m\x1b[31m`)
 - **Debug**: Gray (`\x1b[90m`)
 
+

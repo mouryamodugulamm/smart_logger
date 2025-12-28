@@ -6,3 +6,16 @@ dist/
 .env
 .env.local
 
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+Thumbs.db
+
+# Build artifacts
+*.map
+
+

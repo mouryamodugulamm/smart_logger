@@ -36,3 +36,4 @@ function processData(data: string): void {
 processData('Hello World');
 processData('');
 
+

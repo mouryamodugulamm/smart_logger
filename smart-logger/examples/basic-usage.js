@@ -11,3 +11,4 @@ log.warn('This is a warning');
 log.error('Something went wrong');
 log.debug('Debug information'); // Only shows if DEBUG=true
 
+

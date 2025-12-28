@@ -112,3 +112,4 @@ npm test
 
 That's it! You're ready to use smart-logger. 🎉
 
+

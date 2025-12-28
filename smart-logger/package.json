@@ -1,5 +1,5 @@
 {
-    "name": "@my-scope/smart-logger",
+    "name": "@mouryavamsi/smart-logger",
     "version": "1.0.0",
     "description": "A smart console logger with colored output, timestamps, and environment-aware logging",
     "type": "module",
@@ -39,7 +39,7 @@
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "https://github.com/mouryamodugulamm/smart_logger.git"
+        "url": "git+https://github.com/mouryamodugulamm/smart_logger.git"
     },
     "engines": {
         "node": ">=14.0.0"

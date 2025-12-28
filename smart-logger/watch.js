@@ -59,3 +59,4 @@ runTest();
 watchDirectory(join(__dirname, 'src'));
 watchDirectory(join(__dirname, 'dist'));
 
+
