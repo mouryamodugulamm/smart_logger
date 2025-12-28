@@ -1,0 +1,36 @@
+# Source files
+src/
+*.ts
+!*.d.ts
+
+# Development files
+test.js
+test.ts
+test-live.js
+watch.js
+examples/
+*.md
+!README.md
+
+# Build artifacts
+*.tsbuildinfo
+*.map
+
+# Development dependencies
+node_modules/
+package-lock.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
+

@@ -1,0 +1,51 @@
+{
+    "name": "@my-scope/smart-logger",
+    "version": "1.0.0",
+    "description": "A smart console logger with colored output, timestamps, and environment-aware logging",
+    "type": "module",
+    "main": "./dist/index.js",
+    "types": "./dist/index.d.ts",
+    "exports": {
+        ".": {
+            "import": "./dist/index.js",
+            "types": "./dist/index.d.ts"
+        }
+    },
+    "files": [
+        "dist",
+        "README.md",
+        "LICENSE"
+    ],
+    "scripts": {
+        "build": "tsc",
+        "prepublishOnly": "npm run build",
+        "test": "node test.js",
+        "test:debug": "DEBUG=true node test.js",
+        "test:prod": "NODE_ENV=production node test.js",
+        "test:live": "node test-live.js",
+        "watch": "node watch.js",
+        "dev": "npm run build && node watch.js"
+    },
+    "keywords": [
+        "logger",
+        "logging",
+        "console",
+        "typescript",
+        "colored",
+        "timestamp",
+        "environment-aware"
+    ],
+    "author": "Mourya Vamsi Modugula ",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/mouryamodugulamm/smart_logger.git"
+    },
+    "engines": {
+        "node": ">=14.0.0"
+    },
+    "devDependencies": {
+        "@types/node": "^25.0.3",
+        "typescript": "^5.0.0"
+    }
+}
