@@ -39,8 +39,12 @@
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/mouryamodugulamm/smart_logger.git"
+        "url": "https://github.com/mouryamodugulamm/smart_logger.git"
     },
+    "bugs": {
+        "url": "https://github.com/mouryamodugulamm/smart_logger/issues"
+    },
+    "homepage": "https://github.com/mouryamodugulamm/smart_logger#readme",
     "engines": {
         "node": ">=14.0.0"
     },
