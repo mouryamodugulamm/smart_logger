@@ -1,6 +1,6 @@
 {
     "name": "@mouryavamsi/smart-logger",
-    "version": "1.0.1",
+    "version": "1.0.0",
     "description": "A smart console logger with colored output, timestamps, and environment-aware logging",
     "type": "module",
     "main": "./dist/index.js",
@@ -39,7 +39,7 @@
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/mouryamodugulamm/smart_logger.git"
+        "url": "https://github.com/mouryamodugulamm/smart_logger.git"
     },
     "bugs": {
         "url": "https://github.com/mouryamodugulamm/smart_logger/issues"
